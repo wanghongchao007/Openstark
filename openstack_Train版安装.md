@@ -1,7 +1,7 @@
 # openstack 安装Train版
 
 # 1.拓扑图
-![拓扑图.png](https://ae03.alicdn.com/kf/Hfa0f53991e964c15988fdc89f9823c7aU.png)
+![拓扑图.png](https://pic.gksec.com/2020/05/16/35fc6289de5f4/拓扑图.png)
 # 2.实验环境
 ## 2.1.IP规划
 - ###  VM8网卡物理名称为ens33
@@ -18,7 +18,7 @@
   ![vm8.png](https://ae03.alicdn.com/kf/H2e4eee8a6bde4df19d1e30ede04fecf2p.png)
 
 - ### Linux的网络编辑器设置
-  ![虚拟网络编辑器.png](https://ae02.alicdn.com/kf/Hd8051ee57bf44d01bf0b69459ac1e798c.png)
+  ![网络编辑器.png](https://pic.gksec.com/2020/05/16/f04208e508132/网络编辑器.png)
 
 - ### 域名解析文件
 ```selinux
