@@ -18,7 +18,7 @@
   ![vm8.png](https://ae03.alicdn.com/kf/H2e4eee8a6bde4df19d1e30ede04fecf2p.png)
 
 - ### Linux的网络编辑器设置
-  ![网络编辑器.png](https://pic.gksec.com/2020/05/16/f04208e508132/网络编辑器.png)
+  ![网络编辑器.png](https://i.loli.net/2020/05/17/I6S7bgURqceQsn1.png)
 
 - ### 域名解析文件
 ```selinux
