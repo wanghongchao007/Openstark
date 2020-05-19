@@ -254,7 +254,7 @@ virt_type = qemu
 [DEFAULT]
 enabled_apis = osapi_compute,metadata
 transport_url = rabbit://openstack:Com.123@controller
-my_ip = MANAGEMENT_INTERFACE_IP_ADDRESS
+my_ip = 10.0.0.21
 use_neutron = true
 firewall_driver = nova.virt.firewall.NoopFirewallDriver
 ```
@@ -327,6 +327,11 @@ virt_type = qemu
 ```shell
 [root@controller ~]# . admin-openrc
 [root@controller ~]# openstack compute service list --service nova-compute
++----+--------------+----------+------+---------+-------+----------------------------+
+| ID | Binary       | Host     | Zone | Status  | State | Updated At                 |
++----+--------------+----------+------+---------+-------+----------------------------+
+|  7 | nova-compute | computer | nova | enabled | up    | 2020-05-18T11:39:11.000000 |
++----+--------------+----------+------+---------+-------+----------------------------+
 ```
 ### 2.2.发现计算主机：
 ```shell
